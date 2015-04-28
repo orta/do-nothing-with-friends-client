@@ -14,6 +14,8 @@
 		6076D9B31AE83576009430F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6076D9B21AE83576009430F9 /* Images.xcassets */; };
 		6076D9B61AE83576009430F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6076D9B41AE83576009430F9 /* LaunchScreen.xib */; };
 		6076D9C21AE83576009430F9 /* Do_Nothing_with_FriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6076D9C11AE83576009430F9 /* Do_Nothing_with_FriendsTests.m */; };
+		8F07567FFAED7B59758AECFF /* Pods_Do_Nothing_with_FriendsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5745D71EDC7185F536C3A31D /* Pods_Do_Nothing_with_FriendsTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C80DEAE458C43A55B9710A75 /* Pods_Do_Nothing_with_Friends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD86E2A59F643205339CBBAE /* Pods_Do_Nothing_with_Friends.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5745D71EDC7185F536C3A31D /* Pods_Do_Nothing_with_FriendsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Do_Nothing_with_FriendsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6076D9A21AE83576009430F9 /* Do Nothing with Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do Nothing with Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6076D9A61AE83576009430F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6076D9A71AE83576009430F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,11 @@
 		6076D9BB1AE83576009430F9 /* Do Nothing with FriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Do Nothing with FriendsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6076D9C01AE83576009430F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6076D9C11AE83576009430F9 /* Do_Nothing_with_FriendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Do_Nothing_with_FriendsTests.m; sourceTree = "<group>"; };
+		A7F9F2B81CF7ABFC6F0DD1D7 /* Pods-Do Nothing with Friends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Do Nothing with Friends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Do Nothing with Friends/Pods-Do Nothing with Friends.debug.xcconfig"; sourceTree = "<group>"; };
+		AB940A7F6AA8E0B4DE4D99E9 /* Pods-Do Nothing with Friends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Do Nothing with Friends.release.xcconfig"; path = "Pods/Target Support Files/Pods-Do Nothing with Friends/Pods-Do Nothing with Friends.release.xcconfig"; sourceTree = "<group>"; };
+		AD538A233AA9477E364400C4 /* Pods-Do Nothing with FriendsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Do Nothing with FriendsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Do Nothing with FriendsTests/Pods-Do Nothing with FriendsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5105DBB6AD92ECB5AE26D3B /* Pods-Do Nothing with FriendsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Do Nothing with FriendsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Do Nothing with FriendsTests/Pods-Do Nothing with FriendsTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD86E2A59F643205339CBBAE /* Pods_Do_Nothing_with_Friends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Do_Nothing_with_Friends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80DEAE458C43A55B9710A75 /* Pods_Do_Nothing_with_Friends.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +63,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F07567FFAED7B59758AECFF /* Pods_Do_Nothing_with_FriendsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D088BAE21491D199777C64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD86E2A59F643205339CBBAE /* Pods_Do_Nothing_with_Friends.framework */,
+				5745D71EDC7185F536C3A31D /* Pods_Do_Nothing_with_FriendsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42504345BBD5FAD5F6E1DFA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7F9F2B81CF7ABFC6F0DD1D7 /* Pods-Do Nothing with Friends.debug.xcconfig */,
+				AB940A7F6AA8E0B4DE4D99E9 /* Pods-Do Nothing with Friends.release.xcconfig */,
+				AD538A233AA9477E364400C4 /* Pods-Do Nothing with FriendsTests.debug.xcconfig */,
+				C5105DBB6AD92ECB5AE26D3B /* Pods-Do Nothing with FriendsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6076D9991AE83576009430F9 = {
 			isa = PBXGroup;
 			children = (
 				6076D9A41AE83576009430F9 /* Do Nothing with Friends */,
 				6076D9BE1AE83576009430F9 /* Do Nothing with FriendsTests */,
 				6076D9A31AE83576009430F9 /* Products */,
+				42504345BBD5FAD5F6E1DFA6 /* Pods */,
+				00D088BAE21491D199777C64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6076D9C51AE83576009430F9 /* Build configuration list for PBXNativeTarget "Do Nothing with Friends" */;
 			buildPhases = (
+				BCEE2425B5CD39B977A0C298 /* Check Pods Manifest.lock */,
 				6076D99E1AE83576009430F9 /* Sources */,
 				6076D99F1AE83576009430F9 /* Frameworks */,
 				6076D9A01AE83576009430F9 /* Resources */,
+				309EBCAF0A02BC2771AEA90B /* Embed Pods Frameworks */,
+				08D8E7F405D3B8A1FD12A28A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6076D9C81AE83576009430F9 /* Build configuration list for PBXNativeTarget "Do Nothing with FriendsTests" */;
 			buildPhases = (
+				03E412C94B058CE8FCEF9273 /* Check Pods Manifest.lock */,
 				6076D9B71AE83576009430F9 /* Sources */,
 				6076D9B81AE83576009430F9 /* Frameworks */,
 				6076D9B91AE83576009430F9 /* Resources */,
+				44DECAB8B27672ED5C2C3A5F /* Embed Pods Frameworks */,
+				2725D78E8077FD54AFB24F4D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +251,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E412C94B058CE8FCEF9273 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		08D8E7F405D3B8A1FD12A28A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Do Nothing with Friends/Pods-Do Nothing with Friends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2725D78E8077FD54AFB24F4D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Do Nothing with FriendsTests/Pods-Do Nothing with FriendsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		309EBCAF0A02BC2771AEA90B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Do Nothing with Friends/Pods-Do Nothing with Friends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44DECAB8B27672ED5C2C3A5F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Do Nothing with FriendsTests/Pods-Do Nothing with FriendsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCEE2425B5CD39B977A0C298 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6076D99E1AE83576009430F9 /* Sources */ = {
@@ -345,6 +476,7 @@
 		};
 		6076D9C61AE83576009430F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F9F2B81CF7ABFC6F0DD1D7 /* Pods-Do Nothing with Friends.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Do Nothing with Friends/Info.plist";
@@ -355,6 +487,7 @@
 		};
 		6076D9C71AE83576009430F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB940A7F6AA8E0B4DE4D99E9 /* Pods-Do Nothing with Friends.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Do Nothing with Friends/Info.plist";
@@ -365,6 +498,7 @@
 		};
 		6076D9C91AE83576009430F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD538A233AA9477E364400C4 /* Pods-Do Nothing with FriendsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -384,6 +518,7 @@
 		};
 		6076D9CA1AE83576009430F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5105DBB6AD92ECB5AE26D3B /* Pods-Do Nothing with FriendsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -416,6 +551,7 @@
 				6076D9C71AE83576009430F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6076D9C81AE83576009430F9 /* Build configuration list for PBXNativeTarget "Do Nothing with FriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +560,7 @@
 				6076D9CA1AE83576009430F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
